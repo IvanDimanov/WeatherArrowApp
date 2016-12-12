@@ -1,0 +1,54 @@
+{
+  "name": "ArrowWeatherApp",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Ivan Dimanov",
+  "license": "",
+  "framework": "none",
+  "keywords": [
+    "appcelerator",
+    "arrow"
+  ],
+  "repository": {},
+  "private": true,
+  "dependencies": {
+    "async": "^1.5.0",
+    "babel-cli": "6.18.0",
+    "babel-core": "6.20.0",
+    "babel-loader": "6.2.9",
+    "babel-preset-latest": "6.16.0",
+    "babel-preset-react": "6.16.0",
+    "jquery": "3.1.1",
+    "lodash": "^3.10.1",
+    "material-ui": "0.16.5",
+    "mobx": "2.7.0",
+    "mobx-react": "4.0.3",
+    "pkginfo": "^0.3.1",
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "react-router": "3.0.0",
+    "react-tap-event-plugin": "2.0.1",
+    "rxjs": "5.0.0-rc.5",
+    "webpack": "1.14.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-appc-js": "^1.0.19",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2",
+    "arrow": "^*",
+    "request": "^2.67.0"
+  },
+  "main": "app.js",
+  "healthCheck": true,
+  "scripts": {
+    "start": "appc run",
+    "test": "grunt"
+  },
+  "engines": {
+    "node": "6.8.1"
+  }
+}

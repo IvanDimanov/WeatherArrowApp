@@ -1,0 +1,10 @@
+# Development files
+**/node_modules
+web/public/**/*.bundle.*
+.vscode
+
+/notes
+
+# Log files
+**/npm-debug.log*
+logs
